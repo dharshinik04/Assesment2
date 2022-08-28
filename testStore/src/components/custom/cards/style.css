@@ -1,0 +1,81 @@
+.shop-item-container {
+  display: grid;
+  width: 25vw;
+  height: 70vh;
+  border: 0.1vh solid black;
+  border-radius: 10px;
+  margin: 2vh;
+}
+
+.item-img {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 1;
+  height: 35vh;
+  align-self: center;
+  border-radius: 1vh;
+  margin-top: 1vh;
+  justify-self: center;
+}
+
+.item-name {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 3;
+  margin-left: 3vh;
+  font-size: 1.5vw;
+  width: 15vw;
+  height: 4vh;
+}
+
+.item-description {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 2;
+  margin-left: 3vh;
+  font-size: 2vh;
+  overflow: auto;
+}
+
+.item-add-to-cart {
+  grid-row: 3 / span 1;
+  grid-column: 3 / span 1;
+  border: 0.1vh solid gray;
+  background-color: blue;
+  color: white;
+  width: 70px;
+  text-align: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 1vw;
+  align-self: center;
+  margin-left: 2vw;
+}
+
+.item-in-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 1.5vh;
+}
+
+.item-remove-button {
+  width: 2vw;
+  border: 0.1vh solid gray;
+  height: 4vh;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.item-quantity {
+  width: 2vw;
+  border: 0.1vh solid gray;
+  height: 4vh;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.item-add-button {
+  width: 2vw;
+  border: 0.1vh solid gray;
+  height: 4vh;
+  text-align: center;
+  font-size: 3vh;
+}
